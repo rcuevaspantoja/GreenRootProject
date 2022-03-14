@@ -1,0 +1,16 @@
+.div-principal{
+
+  background: linear-gradient( rgb(136, 224, 136), white);
+  height:100vh; 
+  width:100vw;
+}
+
+.AboutUs{
+
+  margin: 2%;
+}
+
+.BarraNavegacion{
+
+  margin-left: 2%;
+}
