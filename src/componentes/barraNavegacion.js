@@ -12,15 +12,13 @@ function BarraNavegacion(){
     <AppBar style={{ background: '#426442' }} position="sticky" >
       <Toolbar>
         <ParkIcon style={{ fontSize: 40 }}/>
-        <Typography variant="h4" > Green Root </Typography>
+        <Typography variant="h4" > BilletesChile </Typography>
           <div  className='BarraNavegacion'>
-            <Button variant="text" component={Link} to="/" size="large" color="inherit"> Home </Button>
+            <Button variant="text" component={Link} to="/" size="large" color="inherit"> Inicio </Button>
 
-            <Button variant="text" component={Link} to="/AboutUs" size="large" color="inherit"> About Us </Button>
+            <Button variant="text" component={Link} to="/Catalogo" size="large" color="inherit"> Catálogo </Button>
 
-            <Button variant="text" component={Link} to="/Plants" size="large" color="inherit"> Plants </Button>
-
-            <Button variant="text" component={Link} to="/Pots" size="large" color="inherit"> Pots </Button>
+            <Button variant="text" component={Link} to="/Inventario" size="large" color="inherit"> Inventario </Button>
           </div>
       </Toolbar>
     </AppBar>
